@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GemaltoReader'
-  s.version          = '0.5.3'
+  s.version          = '0.5.4'
   s.summary          = 'Implementation of ReaderConnectionWrapper / CardConnectionWrapper for Gemalto Readers'
   s.description      = 'Use this pod if you want to support Gemalto Smart Card Readers in your application.'
   s.homepage         = 'https://github.com/Ministerstvo-vnitra/EOP_iOS_Readers'
@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   # Deps
   s.dependency 'ReaderConnectionWrapper', '~> 0.5.3'
-  s.dependency 'GemaltoSDKWrapper', '~> 0.2.1'
+  s.dependency 'GemaltoSDKWrapper', '~> 0.2.2'
 end
