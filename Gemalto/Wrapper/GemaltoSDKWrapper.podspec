@@ -17,4 +17,3 @@ Pod::Spec.new do |s|
   s.ios.frameworks       = 'Security', 'CoreBluetooth', 'AudioToolbox', 'ExternalAccessory'
   s.library = 'z', 'sqlite3.0'
 end
-/Users/ivangurtler/Desktop/priečinok bez názvu/GemaltoSDKWrapper.framework
