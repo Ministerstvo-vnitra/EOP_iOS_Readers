@@ -1,0 +1,6 @@
+framework module ACSLibrary {
+  umbrella header "ACSLibrary.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module FeitianLibrary {
+  umbrella header "FeitianLibrary.h"
+  export *
+
+  module * { export * }
+}

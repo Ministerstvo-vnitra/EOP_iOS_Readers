@@ -1,0 +1,11 @@
+framework module AirIDReaderFramework {
+  umbrella header "AirIDReaderFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module AirIDReaderFramework.Swift {
+  header "AirIDReaderFramework-Swift.h"
+  requires objc
+}

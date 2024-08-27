@@ -1,0 +1,2093 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ACSLibrary",
+        "printedName": "ACSLibrary",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "CardConnectionWrapper",
+        "printedName": "CardConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ACSLibrary",
+        "printedName": "ACSLibrary",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "ReaderConnectionWrapper",
+        "printedName": "ReaderConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ACSReader",
+        "printedName": "ACSReader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ACSReaderFramework0A0C4nameSSvp",
+            "mangledName": "$s18ACSReaderFramework0A0C4nameSSvp",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C4nameSSvg",
+                "mangledName": "$s18ACSReaderFramework0A0C4nameSSvg",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C4nameSSvs",
+                "mangledName": "$s18ACSReaderFramework0A0C4nameSSvs",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C4nameSSvM",
+                "mangledName": "$s18ACSReaderFramework0A0C4nameSSvM",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionState",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ACSReaderFramework0A0C5state23ReaderConnectionWrapper0dE5StateOvp",
+            "mangledName": "$s18ACSReaderFramework0A0C5state23ReaderConnectionWrapper0dE5StateOvp",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                    "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C5state23ReaderConnectionWrapper0dE5StateOvg",
+                "mangledName": "$s18ACSReaderFramework0A0C5state23ReaderConnectionWrapper0dE5StateOvg",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                    "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C5state23ReaderConnectionWrapper0dE5StateOvs",
+                "mangledName": "$s18ACSReaderFramework0A0C5state23ReaderConnectionWrapper0dE5StateOvs",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C5state23ReaderConnectionWrapper0dE5StateOvM",
+                "mangledName": "$s18ACSReaderFramework0A0C5state23ReaderConnectionWrapper0dE5StateOvM",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastSeen",
+            "printedName": "lastSeen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ACSReaderFramework0A0C8lastSeen10Foundation4DateVvp",
+            "mangledName": "$s18ACSReaderFramework0A0C8lastSeen10Foundation4DateVvp",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C8lastSeen10Foundation4DateVvg",
+                "mangledName": "$s18ACSReaderFramework0A0C8lastSeen10Foundation4DateVvg",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C8lastSeen10Foundation4DateVvs",
+                "mangledName": "$s18ACSReaderFramework0A0C8lastSeen10Foundation4DateVvs",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C8lastSeen10Foundation4DateVvM",
+                "mangledName": "$s18ACSReaderFramework0A0C8lastSeen10Foundation4DateVvM",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batteryStatus",
+            "printedName": "batteryStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCardReaderBatteryStatus",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                    "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ACSReaderFramework0A0C13batteryStatus23ReaderConnectionWrapper09SmartCarde7BatteryD0OSgvp",
+            "mangledName": "$s18ACSReaderFramework0A0C13batteryStatus23ReaderConnectionWrapper09SmartCarde7BatteryD0OSgvp",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderBatteryStatus",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C13batteryStatus23ReaderConnectionWrapper09SmartCarde7BatteryD0OSgvg",
+                "mangledName": "$s18ACSReaderFramework0A0C13batteryStatus23ReaderConnectionWrapper09SmartCarde7BatteryD0OSgvg",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderBatteryStatus",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C13batteryStatus23ReaderConnectionWrapper09SmartCarde7BatteryD0OSgvs",
+                "mangledName": "$s18ACSReaderFramework0A0C13batteryStatus23ReaderConnectionWrapper09SmartCarde7BatteryD0OSgvs",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C13batteryStatus23ReaderConnectionWrapper09SmartCarde7BatteryD0OSgvM",
+                "mangledName": "$s18ACSReaderFramework0A0C13batteryStatus23ReaderConnectionWrapper09SmartCarde7BatteryD0OSgvM",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "manufacturer",
+            "printedName": "manufacturer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ACSReaderFramework0A0C12manufacturerSSvp",
+            "mangledName": "$s18ACSReaderFramework0A0C12manufacturerSSvp",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C12manufacturerSSvg",
+                "mangledName": "$s18ACSReaderFramework0A0C12manufacturerSSvg",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ACSReaderFramework0A0C5modelSSvp",
+            "mangledName": "$s18ACSReaderFramework0A0C5modelSSvp",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework0A0C5modelSSvg",
+                "mangledName": "$s18ACSReaderFramework0A0C5modelSSvg",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ACSReader",
+                "printedName": "ACSReaderFramework.ACSReader",
+                "usr": "s:18ACSReaderFramework0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18ACSReaderFramework0A0C4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18ACSReaderFramework0A0C4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ACSReaderFramework",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ACSReaderFramework0A0C6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18ACSReaderFramework0A0C6encode2toys7Encoder_p_tKF",
+            "moduleName": "ACSReaderFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18ACSReaderFramework0A0C",
+        "mangledName": "$s18ACSReaderFramework0A0C",
+        "moduleName": "ACSReaderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SmartCardReaderProtocol",
+            "printedName": "SmartCardReaderProtocol",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Manufactured",
+            "printedName": "Manufactured",
+            "usr": "s:23ReaderConnectionWrapper12ManufacturedP",
+            "mangledName": "$s23ReaderConnectionWrapper12ManufacturedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ReaderConnectionWrapper",
+        "printedName": "ReaderConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "ACSLibrary",
+        "printedName": "ACSLibrary",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ACSConnectionService",
+        "printedName": "ACSConnectionService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC8delegate23ReaderConnectionWrapper0fgD8Delegate_pSgvp",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC8delegate23ReaderConnectionWrapper0fgD8Delegate_pSgvp",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReaderConnectionServiceDelegate",
+                        "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
+                        "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework20ACSConnectionServiceC8delegate23ReaderConnectionWrapper0fgD8Delegate_pSgvg",
+                "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC8delegate23ReaderConnectionWrapper0fgD8Delegate_pSgvg",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReaderConnectionServiceDelegate",
+                        "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
+                        "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework20ACSConnectionServiceC8delegate23ReaderConnectionWrapper0fgD8Delegate_pSgvs",
+                "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC8delegate23ReaderConnectionWrapper0fgD8Delegate_pSgvs",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework20ACSConnectionServiceC8delegate23ReaderConnectionWrapper0fgD8Delegate_pSgvM",
+                "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC8delegate23ReaderConnectionWrapper0fgD8Delegate_pSgvM",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "knownReaders",
+            "printedName": "knownReaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCardReaderProtocol",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                    "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardG8Protocol_pGvp",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardG8Protocol_pGvp",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderProtocol",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework20ACSConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardG8Protocol_pGvg",
+                "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardG8Protocol_pGvg",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderProtocol",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework20ACSConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardG8Protocol_pGvs",
+                "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardG8Protocol_pGvs",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework20ACSConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardG8Protocol_pGvM",
+                "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardG8Protocol_pGvM",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionServiceState",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC5state23ReaderConnectionWrapper0fgD5StateOvp",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC5state23ReaderConnectionWrapper0fgD5StateOvp",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionServiceState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                    "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework20ACSConnectionServiceC5state23ReaderConnectionWrapper0fgD5StateOvg",
+                "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC5state23ReaderConnectionWrapper0fgD5StateOvg",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionServiceState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                    "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework20ACSConnectionServiceC5state23ReaderConnectionWrapper0fgD5StateOvs",
+                "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC5state23ReaderConnectionWrapper0fgD5StateOvs",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18ACSReaderFramework20ACSConnectionServiceC5state23ReaderConnectionWrapper0fgD5StateOvM",
+                "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC5state23ReaderConnectionWrapper0fgD5StateOvM",
+                "moduleName": "ACSReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ACSConnectionService",
+                "printedName": "ACSReaderFramework.ACSConnectionService",
+                "usr": "c:@M@ACSReaderFramework@objc(cs)ACSConnectionService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceCACycfc",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceCACycfc",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ACSReader",
+                "printedName": "ACSReaderFramework.ACSReader",
+                "usr": "s:18ACSReaderFramework0A0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC7connect6readeryAA0A0C_tF",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC7connect6readeryAA0A0C_tF",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ACSReader",
+                "printedName": "ACSReaderFramework.ACSReader",
+                "usr": "s:18ACSReaderFramework0A0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC10disconnect6readeryAA0A0C_tF",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC10disconnect6readeryAA0A0C_tF",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pair",
+            "printedName": "pair(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ACSReader",
+                "printedName": "ACSReaderFramework.ACSReader",
+                "usr": "s:18ACSReaderFramework0A0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC4pair6readeryAA0A0C_tF",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC4pair6readeryAA0A0C_tF",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unpair",
+            "printedName": "unpair(reader:onCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ACSReader",
+                "printedName": "ACSReaderFramework.ACSReader",
+                "usr": "s:18ACSReaderFramework0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC6unpair6reader12onCompletionyAA0A0C_yycSgtF",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC6unpair6reader12onCompletionyAA0A0C_yycSgtF",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scanReadersForPairing",
+            "printedName": "scanReadersForPairing(untilStopped:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC21scanReadersForPairing12untilStoppedySb_tF",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC21scanReadersForPairing12untilStoppedySb_tF",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scanReadersForConnecting",
+            "printedName": "scanReadersForConnecting(untilStopped:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC24scanReadersForConnecting12untilStoppedySb_tF",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC24scanReadersForConnecting12untilStoppedySb_tF",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScanning",
+            "printedName": "stopScanning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC12stopScanningyyF",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC12stopScanningyyF",
+            "moduleName": "ACSReaderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCentralManagerPoweredOn",
+            "printedName": "onCentralManagerPoweredOn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC25onCentralManagerPoweredOnyyF",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC25onCentralManagerPoweredOnyyF",
+            "moduleName": "ACSReaderFramework",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCentralManagerPoweredOff",
+            "printedName": "onCentralManagerPoweredOff()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC26onCentralManagerPoweredOffyyF",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC26onCentralManagerPoweredOffyyF",
+            "moduleName": "ACSReaderFramework",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(manufacturer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ACSConnectionService",
+                "printedName": "ACSReaderFramework.ACSConnectionService",
+                "usr": "c:@M@ACSReaderFramework@objc(cs)ACSConnectionService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18ACSReaderFramework20ACSConnectionServiceC12manufacturerACSS_tcfc",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC12manufacturerACSS_tcfc",
+            "moduleName": "ACSReaderFramework",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManager",
+            "printedName": "centralManager(_:didDiscover:advertisementData:rssi:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ACSReaderFramework@objc(cs)ACSConnectionService(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC14centralManager_11didDiscover17advertisementData4rssiySo09CBCentralF0C_So12CBPeripheralCSDySSypGSo8NSNumberCtF",
+            "moduleName": "ACSReaderFramework",
+            "objc_name": "centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManager",
+            "printedName": "centralManager(_:didConnect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ACSReaderFramework@objc(cs)ACSConnectionService(im)centralManager:didConnectPeripheral:",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC14centralManager_10didConnectySo09CBCentralF0C_So12CBPeripheralCtF",
+            "moduleName": "ACSReaderFramework",
+            "objc_name": "centralManager:didConnectPeripheral:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManager",
+            "printedName": "centralManager(_:didDisconnectPeripheral:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ACSReaderFramework@objc(cs)ACSConnectionService(im)centralManager:didDisconnectPeripheral:error:",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC14centralManager_23didDisconnectPeripheral5errorySo09CBCentralF0C_So12CBPeripheralCs5Error_pSgtF",
+            "moduleName": "ACSReaderFramework",
+            "objc_name": "centralManager:didDisconnectPeripheral:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bluetoothReaderManager",
+            "printedName": "bluetoothReaderManager(_:didDetect:peripheral:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "ACSLibrary.ABTBluetoothReaderManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABTBluetoothReaderManager",
+                    "printedName": "ACSLibrary.ABTBluetoothReaderManager",
+                    "usr": "c:objc(cs)ABTBluetoothReaderManager"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "ACSLibrary.ABTBluetoothReader?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABTBluetoothReader",
+                    "printedName": "ACSLibrary.ABTBluetoothReader",
+                    "usr": "c:objc(cs)ABTBluetoothReader"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreBluetooth.CBPeripheral?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBPeripheral",
+                    "printedName": "CoreBluetooth.CBPeripheral",
+                    "usr": "c:objc(cs)CBPeripheral"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ACSReaderFramework@objc(cs)ACSConnectionService(im)bluetoothReaderManager:didDetectReader:peripheral:error:",
+            "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC22bluetoothReaderManager_9didDetect10peripheral5errorySo012ABTBluetoothfG0CSg_So0lF0CSgSo12CBPeripheralCSgs5Error_pSgtF",
+            "moduleName": "ACSReaderFramework",
+            "objc_name": "bluetoothReaderManager:didDetectReader:peripheral:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ACSReaderFramework@objc(cs)ACSConnectionService",
+        "mangledName": "$s18ACSReaderFramework20ACSConnectionServiceC",
+        "moduleName": "ACSReaderFramework",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@ReaderConnectionWrapper@objc(cs)SpecificReaderConnectionServiceBase",
+        "superclassNames": [
+          "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SpecificReaderConnectionServiceProtocol",
+            "printedName": "SpecificReaderConnectionServiceProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReaderImplementation",
+                "printedName": "ReaderImplementation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ACSReader",
+                    "printedName": "ACSReaderFramework.ACSReader",
+                    "usr": "s:18ACSReaderFramework0A0C"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Manufactured",
+            "printedName": "Manufactured",
+            "usr": "s:23ReaderConnectionWrapper12ManufacturedP",
+            "mangledName": "$s23ReaderConnectionWrapper12ManufacturedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReaderConnectionServiceProtocol",
+            "printedName": "ReaderConnectionServiceProtocol",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ReaderConnectionWrapper",
+        "printedName": "ReaderConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "ACSLibrary",
+        "printedName": "ACSLibrary",
+        "declKind": "Import",
+        "moduleName": "ACSReaderFramework"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 323,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 323,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 323,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4055,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4587,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 29,
+      "value": "\"ACSReaderFramework.ABTCardConnectionAnonDelegate\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 4818,
+      "length": 17,
+      "value": "\"not implemented\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 4973,
+      "length": 44,
+      "value": "\"internal ACS reader was nil (disconnected)\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5320,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5459,
+      "length": 38,
+      "value": "\"no data recieved from card (removed)\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5610,
+      "length": 47,
+      "value": "\"no data recieved from card in a timely manner\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5779,
+      "length": 18,
+      "value": "\"couldn't get ATR\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 163,
+      "length": 5,
+      "value": "\"ACS\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
+      "kind": "Array",
+      "offset": 201,
+      "length": 96,
+      "value": "[0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF]"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 9,
+      "value": "\"ACR3901\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 15,
+      "value": "\"ACR 3901 U-S1\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "Array",
+      "offset": 513,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2025,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2726,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "Dictionary",
+      "offset": 3491,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4345,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4484,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "Array",
+      "offset": 5899,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6063,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9433,
+      "length": 6,
+      "value": "0x2A24"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9468,
+      "length": 6,
+      "value": "0x2A25"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9433,
+      "length": 6,
+      "value": "0x2A24"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9468,
+      "length": 6,
+      "value": "0x2A25"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9433,
+      "length": 6,
+      "value": "0x2A24"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9468,
+      "length": 6,
+      "value": "0x2A25"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9537,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9562,
+      "length": 4,
+      "value": "0xFE"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9590,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9537,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9562,
+      "length": 4,
+      "value": "0xFE"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9590,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9537,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9562,
+      "length": 4,
+      "value": "0xFE"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9590,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 20,
+      "value": "\"ACSReaderFramework.ACSConnectionService\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 11468,
+      "length": 69,
+      "value": "\"the connection attempt to \""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 11519,
+      "length": 3,
+      "value": "\" was unsuccessful\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "kind": "FloatLiteral",
+      "offset": 12881,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSReaderStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSReaderStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 32,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSReaderStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 7,
+      "value": "\"Readers\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSReaderStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 617,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSReaderStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 856,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTReaderConnectionAnonDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 31,
+      "value": "\"ACSReaderFramework.ABTReaderConnectionAnonDelegate\""
+    }
+  ]
+}

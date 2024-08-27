@@ -1,0 +1,2168 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AirIDReaderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AirIDReaderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AirIDReaderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardConnectionWrapper",
+        "printedName": "CardConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "AirIDReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "AirIDDriver",
+        "printedName": "AirIDDriver",
+        "declKind": "Import",
+        "moduleName": "AirIDReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AirIDReaderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ReaderConnectionWrapper",
+        "printedName": "ReaderConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "AirIDReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "AirIDDriver",
+        "printedName": "AirIDDriver",
+        "declKind": "Import",
+        "moduleName": "AirIDReaderFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AirIDConnectionService",
+        "printedName": "AirIDConnectionService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC8delegate23ReaderConnectionWrapper0ghE8Delegate_pSgvp",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC8delegate23ReaderConnectionWrapper0ghE8Delegate_pSgvp",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReaderConnectionServiceDelegate",
+                        "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
+                        "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC8delegate23ReaderConnectionWrapper0ghE8Delegate_pSgvg",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC8delegate23ReaderConnectionWrapper0ghE8Delegate_pSgvg",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReaderConnectionServiceDelegate",
+                        "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
+                        "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC8delegate23ReaderConnectionWrapper0ghE8Delegate_pSgvs",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC8delegate23ReaderConnectionWrapper0ghE8Delegate_pSgvs",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC8delegate23ReaderConnectionWrapper0ghE8Delegate_pSgvM",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC8delegate23ReaderConnectionWrapper0ghE8Delegate_pSgvM",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "knownReaders",
+            "printedName": "knownReaders",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCardReaderProtocol",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                    "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardH8Protocol_pGvp",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardH8Protocol_pGvp",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderProtocol",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardH8Protocol_pGvg",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardH8Protocol_pGvg",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderProtocol",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardH8Protocol_pGvs",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardH8Protocol_pGvs",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardH8Protocol_pGvM",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC12knownReadersSay23ReaderConnectionWrapper09SmartCardH8Protocol_pGvM",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionServiceState",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC5state23ReaderConnectionWrapper0ghE5StateOvp",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC5state23ReaderConnectionWrapper0ghE5StateOvp",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionServiceState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                    "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC5state23ReaderConnectionWrapper0ghE5StateOvg",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC5state23ReaderConnectionWrapper0ghE5StateOvg",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionServiceState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceState",
+                    "usr": "s:23ReaderConnectionWrapper0aB12ServiceStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC5state23ReaderConnectionWrapper0ghE5StateOvs",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC5state23ReaderConnectionWrapper0ghE5StateOvs",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC5state23ReaderConnectionWrapper0ghE5StateOvM",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC5state23ReaderConnectionWrapper0ghE5StateOvM",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldReconnectOnDisconnect",
+            "printedName": "shouldReconnectOnDisconnect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC27shouldReconnectOnDisconnectSbvp",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC27shouldReconnectOnDisconnectSbvp",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC27shouldReconnectOnDisconnectSbvg",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC27shouldReconnectOnDisconnectSbvg",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC27shouldReconnectOnDisconnectSbvs",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC27shouldReconnectOnDisconnectSbvs",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC27shouldReconnectOnDisconnectSbvM",
+                "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC27shouldReconnectOnDisconnectSbvM",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AirIDConnectionService",
+                "printedName": "AirIDReaderFramework.AirIDConnectionService",
+                "usr": "c:@M@AirIDReaderFramework@objc(cs)AirIDConnectionService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceCACycfc",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceCACycfc",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "scanReadersForPairing",
+            "printedName": "scanReadersForPairing(untilStopped:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC21scanReadersForPairing12untilStoppedySb_tF",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC21scanReadersForPairing12untilStoppedySb_tF",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scanReadersForConnecting",
+            "printedName": "scanReadersForConnecting(untilStopped:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC24scanReadersForConnecting12untilStoppedySb_tF",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC24scanReadersForConnecting12untilStoppedySb_tF",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScanning",
+            "printedName": "stopScanning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC12stopScanningyyF",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC12stopScanningyyF",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(manufacturer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AirIDConnectionService",
+                "printedName": "AirIDReaderFramework.AirIDConnectionService",
+                "usr": "c:@M@AirIDReaderFramework@objc(cs)AirIDConnectionService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC12manufacturerACSS_tcfc",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC12manufacturerACSS_tcfc",
+            "moduleName": "AirIDReaderFramework",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AirIDReader",
+                "printedName": "AirIDReaderFramework.AirIDReader",
+                "usr": "s:20AirIDReaderFramework0aB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC7connect6readeryAA0aB0C_tF",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC7connect6readeryAA0aB0C_tF",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AirIDReader",
+                "printedName": "AirIDReaderFramework.AirIDReader",
+                "usr": "s:20AirIDReaderFramework0aB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC10disconnect6readeryAA0aB0C_tF",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC10disconnect6readeryAA0aB0C_tF",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pair",
+            "printedName": "pair(reader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AirIDReader",
+                "printedName": "AirIDReaderFramework.AirIDReader",
+                "usr": "s:20AirIDReaderFramework0aB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC4pair6readeryAA0aB0C_tF",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC4pair6readeryAA0aB0C_tF",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unpair",
+            "printedName": "unpair(reader:onCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AirIDReader",
+                "printedName": "AirIDReaderFramework.AirIDReader",
+                "usr": "s:20AirIDReaderFramework0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AirIDReaderFramework0A19IDConnectionServiceC6unpair6reader12onCompletionyAA0aB0C_yycSgtF",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC6unpair6reader12onCompletionyAA0aB0C_yycSgtF",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceManagerDidChangeDeviceList",
+            "printedName": "deviceManagerDidChangeDeviceList(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AIDDeviceManager",
+                "printedName": "AirIDDriver.AIDDeviceManager",
+                "usr": "c:objc(cs)AIDDeviceManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AirIDReaderFramework@objc(cs)AirIDConnectionService(im)deviceManagerDidChangeDeviceList:",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC32deviceManagerDidChangeDeviceListyySo09AIDDeviceG0CF",
+            "moduleName": "AirIDReaderFramework",
+            "objc_name": "deviceManagerDidChangeDeviceList:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceManagerStatePower",
+            "printedName": "deviceManagerStatePower(on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AIDDeviceManager",
+                "printedName": "AirIDDriver.AIDDeviceManager",
+                "usr": "c:objc(cs)AIDDeviceManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AirIDReaderFramework@objc(cs)AirIDConnectionService(im)deviceManagerStatePowerOn:",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC23deviceManagerStatePower2onySo09AIDDeviceG0C_tF",
+            "moduleName": "AirIDReaderFramework",
+            "objc_name": "deviceManagerStatePowerOn:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceManager",
+            "printedName": "deviceManager(_:didDisconnectDevice:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AIDDeviceManager",
+                "printedName": "AirIDDriver.AIDDeviceManager",
+                "usr": "c:objc(cs)AIDDeviceManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AIDDevice",
+                "printedName": "AirIDDriver.AIDDevice",
+                "usr": "c:objc(cs)AIDDevice"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AirIDReaderFramework@objc(cs)AirIDConnectionService(im)deviceManager:didDisconnectDevice:error:",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC13deviceManager_19didDisconnectDevice5errorySo09AIDDeviceG0C_So0L0Cs5Error_pSgtF",
+            "moduleName": "AirIDReaderFramework",
+            "objc_name": "deviceManager:didDisconnectDevice:error:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AirIDReaderFramework@objc(cs)AirIDConnectionService(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeyg6ChangeI0aypGSgSvSgtF",
+            "moduleName": "AirIDReaderFramework",
+            "overriding": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AirIDReaderFramework@objc(cs)AirIDConnectionService",
+        "mangledName": "$s20AirIDReaderFramework0A19IDConnectionServiceC",
+        "moduleName": "AirIDReaderFramework",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@ReaderConnectionWrapper@objc(cs)SpecificReaderConnectionServiceBase",
+        "superclassNames": [
+          "ReaderConnectionWrapper.SpecificReaderConnectionServiceBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SpecificReaderConnectionServiceProtocol",
+            "printedName": "SpecificReaderConnectionServiceProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReaderImplementation",
+                "printedName": "ReaderImplementation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AirIDReader",
+                    "printedName": "AirIDReaderFramework.AirIDReader",
+                    "usr": "s:20AirIDReaderFramework0aB0C"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP",
+            "mangledName": "$s23ReaderConnectionWrapper08SpecificaB15ServiceProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Manufactured",
+            "printedName": "Manufactured",
+            "usr": "s:23ReaderConnectionWrapper12ManufacturedP",
+            "mangledName": "$s23ReaderConnectionWrapper12ManufacturedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReaderConnectionServiceProtocol",
+            "printedName": "ReaderConnectionServiceProtocol",
+            "usr": "s:23ReaderConnectionWrapper0aB15ServiceProtocolP",
+            "mangledName": "$s23ReaderConnectionWrapper0aB15ServiceProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AirIDReaderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ReaderConnectionWrapper",
+        "printedName": "ReaderConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "AirIDReaderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "AirIDDriver",
+        "printedName": "AirIDDriver",
+        "declKind": "Import",
+        "moduleName": "AirIDReaderFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AirIDReader",
+        "printedName": "AirIDReader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "manufacturer",
+            "printedName": "manufacturer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AirIDReaderFramework0aB0C12manufacturerSSvp",
+            "mangledName": "$s20AirIDReaderFramework0aB0C12manufacturerSSvp",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C12manufacturerSSvg",
+                "mangledName": "$s20AirIDReaderFramework0aB0C12manufacturerSSvg",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C12manufacturerSSvs",
+                "mangledName": "$s20AirIDReaderFramework0aB0C12manufacturerSSvs",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C12manufacturerSSvM",
+                "mangledName": "$s20AirIDReaderFramework0aB0C12manufacturerSSvM",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AirIDReaderFramework0aB0C4nameSSvp",
+            "mangledName": "$s20AirIDReaderFramework0aB0C4nameSSvp",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C4nameSSvg",
+                "mangledName": "$s20AirIDReaderFramework0aB0C4nameSSvg",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C4nameSSvs",
+                "mangledName": "$s20AirIDReaderFramework0aB0C4nameSSvs",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C4nameSSvM",
+                "mangledName": "$s20AirIDReaderFramework0aB0C4nameSSvM",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AirIDReaderFramework0aB0C5modelSSvp",
+            "mangledName": "$s20AirIDReaderFramework0aB0C5modelSSvp",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C5modelSSvg",
+                "mangledName": "$s20AirIDReaderFramework0aB0C5modelSSvg",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C5modelSSvs",
+                "mangledName": "$s20AirIDReaderFramework0aB0C5modelSSvs",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C5modelSSvM",
+                "mangledName": "$s20AirIDReaderFramework0aB0C5modelSSvM",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastSeen",
+            "printedName": "lastSeen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AirIDReaderFramework0aB0C8lastSeen10Foundation4DateVvp",
+            "mangledName": "$s20AirIDReaderFramework0aB0C8lastSeen10Foundation4DateVvp",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C8lastSeen10Foundation4DateVvg",
+                "mangledName": "$s20AirIDReaderFramework0aB0C8lastSeen10Foundation4DateVvg",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C8lastSeen10Foundation4DateVvs",
+                "mangledName": "$s20AirIDReaderFramework0aB0C8lastSeen10Foundation4DateVvs",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C8lastSeen10Foundation4DateVvM",
+                "mangledName": "$s20AirIDReaderFramework0aB0C8lastSeen10Foundation4DateVvM",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReaderConnectionState",
+                "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AirIDReaderFramework0aB0C5state23ReaderConnectionWrapper0eF5StateOvp",
+            "mangledName": "$s20AirIDReaderFramework0aB0C5state23ReaderConnectionWrapper0eF5StateOvp",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                    "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C5state23ReaderConnectionWrapper0eF5StateOvg",
+                "mangledName": "$s20AirIDReaderFramework0aB0C5state23ReaderConnectionWrapper0eF5StateOvg",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReaderConnectionState",
+                    "printedName": "ReaderConnectionWrapper.ReaderConnectionState",
+                    "usr": "s:23ReaderConnectionWrapper0aB5StateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C5state23ReaderConnectionWrapper0eF5StateOvs",
+                "mangledName": "$s20AirIDReaderFramework0aB0C5state23ReaderConnectionWrapper0eF5StateOvs",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C5state23ReaderConnectionWrapper0eF5StateOvM",
+                "mangledName": "$s20AirIDReaderFramework0aB0C5state23ReaderConnectionWrapper0eF5StateOvM",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batteryStatus",
+            "printedName": "batteryStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SmartCardReaderBatteryStatus",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                    "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AirIDReaderFramework0aB0C13batteryStatus23ReaderConnectionWrapper09SmartCardf7BatteryE0OSgvp",
+            "mangledName": "$s20AirIDReaderFramework0aB0C13batteryStatus23ReaderConnectionWrapper09SmartCardf7BatteryE0OSgvp",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderBatteryStatus",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C13batteryStatus23ReaderConnectionWrapper09SmartCardf7BatteryE0OSgvg",
+                "mangledName": "$s20AirIDReaderFramework0aB0C13batteryStatus23ReaderConnectionWrapper09SmartCardf7BatteryE0OSgvg",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmartCardReaderBatteryStatus",
+                        "printedName": "ReaderConnectionWrapper.SmartCardReaderBatteryStatus",
+                        "usr": "s:23ReaderConnectionWrapper09SmartCardA13BatteryStatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C13batteryStatus23ReaderConnectionWrapper09SmartCardf7BatteryE0OSgvs",
+                "mangledName": "$s20AirIDReaderFramework0aB0C13batteryStatus23ReaderConnectionWrapper09SmartCardf7BatteryE0OSgvs",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C13batteryStatus23ReaderConnectionWrapper09SmartCardf7BatteryE0OSgvM",
+                "mangledName": "$s20AirIDReaderFramework0aB0C13batteryStatus23ReaderConnectionWrapper09SmartCardf7BatteryE0OSgvM",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AirIDReader",
+                "printedName": "AirIDReaderFramework.AirIDReader",
+                "usr": "s:20AirIDReaderFramework0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20AirIDReaderFramework0aB0C4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s20AirIDReaderFramework0aB0C4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AirIDReaderFramework",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AirIDReaderFramework0aB0C6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s20AirIDReaderFramework0aB0C6encode2toys7Encoder_p_tKF",
+            "moduleName": "AirIDReaderFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AirIDReader",
+                "printedName": "AirIDReaderFramework.AirIDReader",
+                "usr": "s:20AirIDReaderFramework0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AirIDReader",
+                "printedName": "AirIDReaderFramework.AirIDReader",
+                "usr": "s:20AirIDReaderFramework0aB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AirIDReaderFramework0aB0C2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20AirIDReaderFramework0aB0C2eeoiySbAC_ACtFZ",
+            "moduleName": "AirIDReaderFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AirIDReaderFramework0aB0C4hash4intoys6HasherVz_tF",
+            "mangledName": "$s20AirIDReaderFramework0aB0C4hash4intoys6HasherVz_tF",
+            "moduleName": "AirIDReaderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AirIDReaderFramework0aB0C9hashValueSivp",
+            "mangledName": "$s20AirIDReaderFramework0aB0C9hashValueSivp",
+            "moduleName": "AirIDReaderFramework",
+            "implicit": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AirIDReaderFramework0aB0C9hashValueSivg",
+                "mangledName": "$s20AirIDReaderFramework0aB0C9hashValueSivg",
+                "moduleName": "AirIDReaderFramework",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20AirIDReaderFramework0aB0C",
+        "mangledName": "$s20AirIDReaderFramework0aB0C",
+        "moduleName": "AirIDReaderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SmartCardReaderProtocol",
+            "printedName": "SmartCardReaderProtocol",
+            "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP",
+            "mangledName": "$s23ReaderConnectionWrapper09SmartCardA8ProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Manufactured",
+            "printedName": "Manufactured",
+            "usr": "s:23ReaderConnectionWrapper12ManufacturedP",
+            "mangledName": "$s23ReaderConnectionWrapper12ManufacturedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 16,
+      "value": "\"AirIDReaderKey\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 17,
+      "value": "\"error: \""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 873,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
+      "kind": "Array",
+      "offset": 895,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1352,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 221,
+      "length": 7,
+      "value": "\"AirID\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 340,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 678,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 912,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1190,
+      "length": 21,
+      "value": "\"Reader is not ready\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1288,
+      "length": 13,
+      "value": "\"No response\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1353,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1519,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1549,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1598,
+      "length": 32,
+      "value": "\"Failed communication: \""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1629,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1786,
+      "length": 18,
+      "value": "\"No provided Data\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2017,
+      "length": 16,
+      "value": "\"getAtr() issue\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2114,
+      "length": 15,
+      "value": "\"reset() issue\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "Array",
+      "offset": 717,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1100,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2834,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2941,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3425,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3635,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 22,
+      "value": "\"AirIDReaderFramework.AirIDConnectionService\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3836,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 3932,
+      "length": 12,
+      "value": "\"cardStatus\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4253,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4311,
+      "length": 12,
+      "value": "\"cardStatus\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4571,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 4667,
+      "length": 12,
+      "value": "\"cardStatus\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7128,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 7801,
+      "length": 123,
+      "value": "\"Device `\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 7820,
+      "length": 1,
+      "value": "\"` status: \""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 7855,
+      "length": 1,
+      "value": "\" | card: \""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 7878,
+      "length": 1,
+      "value": "\" | card status: \""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 7923,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 7949,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "StringLiteral",
+      "offset": 8659,
+      "length": 12,
+      "value": "\"cardStatus\""
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9357,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11003,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReader.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

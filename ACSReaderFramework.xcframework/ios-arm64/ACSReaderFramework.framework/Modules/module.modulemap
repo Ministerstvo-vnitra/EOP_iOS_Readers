@@ -1,0 +1,6 @@
+framework module ACSReaderFramework {
+  umbrella header "ACSReaderFramework.h"
+  export *
+
+  module * { export * }
+}
