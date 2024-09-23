@@ -1,0 +1,6 @@
+framework module FeitianReaderFramework {
+  umbrella header "FeitianReaderFramework.h"
+  export *
+
+  module * { export * }
+}
