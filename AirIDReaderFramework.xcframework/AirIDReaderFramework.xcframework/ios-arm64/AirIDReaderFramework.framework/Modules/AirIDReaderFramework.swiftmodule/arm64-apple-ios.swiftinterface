@@ -1,0 +1,59 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AirIDReaderFramework
+import AirIDDriver
+@_exported import AirIDReaderFramework
+import CardConnectionWrapper
+import Foundation
+import ReaderConnectionWrapper
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc final public class AirIDConnectionService : ReaderConnectionWrapper.SpecificReaderConnectionServiceBase, ReaderConnectionWrapper.SpecificReaderConnectionServiceProtocol {
+  weak final public var delegate: (any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)?
+  final public var knownReaders: [any ReaderConnectionWrapper.SmartCardReaderProtocol]
+  final public var state: ReaderConnectionWrapper.ReaderConnectionServiceState
+  final public var shouldReconnectOnDisconnect: Swift.Bool {
+    get
+    set
+  }
+  public init()
+  final public func scanReadersForPairing(untilStopped: Swift.Bool)
+  final public func scanReadersForConnecting(untilStopped: Swift.Bool)
+  final public func stopScanning()
+  public typealias ReaderImplementation = AirIDReaderFramework.AirIDReader
+  @objc deinit
+}
+extension AirIDReaderFramework.AirIDConnectionService {
+  final public func connect(reader: AirIDReaderFramework.AirIDReader)
+  final public func disconnect(reader: AirIDReaderFramework.AirIDReader)
+  final public func pair(reader: AirIDReaderFramework.AirIDReader)
+  final public func unpair(reader: AirIDReaderFramework.AirIDReader, onCompletion: (() -> Swift.Void)?)
+}
+extension AirIDReaderFramework.AirIDConnectionService : AirIDDriver.AIDDeviceManagerDelegate {
+  @objc final public func deviceManagerDidChangeDeviceList(_ manager: AirIDDriver.AIDDeviceManager)
+  @objc final public func deviceManagerStatePower(on manager: AirIDDriver.AIDDeviceManager)
+  @objc final public func deviceManager(_ manager: AirIDDriver.AIDDeviceManager, didDisconnectDevice device: AirIDDriver.AIDDevice, error: (any Swift.Error)?)
+}
+extension AirIDReaderFramework.AirIDConnectionService {
+  @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+}
+@_hasMissingDesignatedInitializers public class AirIDReader : ReaderConnectionWrapper.SmartCardReaderProtocol, Swift.Codable {
+  public var manufacturer: Swift.String
+  public var name: Swift.String
+  public var model: Swift.String
+  public var lastSeen: Foundation.Date
+  public var state: ReaderConnectionWrapper.ReaderConnectionState
+  public var batteryStatus: ReaderConnectionWrapper.SmartCardReaderBatteryStatus?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+extension AirIDReaderFramework.AirIDReader : Swift.Hashable {
+  public static func == (lhs: AirIDReaderFramework.AirIDReader, rhs: AirIDReaderFramework.AirIDReader) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
