@@ -543,7 +543,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -571,7 +571,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -684,7 +684,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?"
+                "printedName": "(any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -708,12 +708,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?",
+                    "printedName": "(any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ReaderConnectionServiceDelegate",
-                        "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
+                        "printedName": "any ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
                         "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP"
                       }
                     ],
@@ -740,12 +740,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?",
+                    "printedName": "(any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ReaderConnectionServiceDelegate",
-                        "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
+                        "printedName": "any ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
                         "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP"
                       }
                     ],
@@ -787,12 +787,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                "printedName": "[any ReaderConnectionWrapper.SmartCardReaderProtocol]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SmartCardReaderProtocol",
-                    "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                    "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
                     "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
                   }
                 ],
@@ -818,12 +818,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                    "printedName": "[any ReaderConnectionWrapper.SmartCardReaderProtocol]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SmartCardReaderProtocol",
-                        "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                        "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
                         "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
                       }
                     ],
@@ -850,12 +850,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                    "printedName": "[any ReaderConnectionWrapper.SmartCardReaderProtocol]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SmartCardReaderProtocol",
-                        "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                        "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
                         "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
                       }
                     ],
@@ -1396,12 +1396,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1476,12 +1476,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1649,441 +1649,287 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 236,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 262,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 298,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 323,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 236,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 262,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 298,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 323,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 236,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 262,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 298,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 323,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "BooleanLiteral",
       "offset": 716,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4055,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4587,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
       "kind": "StringLiteral",
       "offset": 532,
       "length": 29,
       "value": "\"ACSReaderFramework.ABTCardConnectionAnonDelegate\""
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 4818,
-      "length": 17,
-      "value": "\"not implemented\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 4973,
-      "length": 44,
-      "value": "\"internal ACS reader was nil (disconnected)\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5320,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 5459,
-      "length": 38,
-      "value": "\"no data recieved from card (removed)\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 5610,
-      "length": 47,
-      "value": "\"no data recieved from card in a timely manner\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTCardConnectionAnonDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 5779,
-      "length": 18,
-      "value": "\"couldn't get ATR\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 163,
       "length": 5,
       "value": "\"ACS\""
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
       "kind": "Array",
       "offset": 201,
       "length": 96,
       "value": "[0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF]"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 323,
       "length": 9,
       "value": "\"ACR3901\""
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSStringIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 15,
       "value": "\"ACR 3901 U-S1\""
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "Array",
       "offset": 513,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2025,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2726,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
-      "kind": "Dictionary",
-      "offset": 3491,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "BooleanLiteral",
       "offset": 4345,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "BooleanLiteral",
       "offset": 4484,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
-      "kind": "Array",
-      "offset": 5899,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6063,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9433,
       "length": 6,
       "value": "0x2A24"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9468,
       "length": 6,
       "value": "0x2A25"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9433,
       "length": 6,
       "value": "0x2A24"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9468,
       "length": 6,
       "value": "0x2A25"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9433,
       "length": 6,
       "value": "0x2A24"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9468,
       "length": 6,
       "value": "0x2A25"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9537,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9562,
       "length": 4,
       "value": "0xFE"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9590,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9537,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9562,
       "length": 4,
       "value": "0xFE"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9590,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9537,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9562,
       "length": 4,
       "value": "0xFE"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 9590,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 20,
       "value": "\"ACSReaderFramework.ACSConnectionService\""
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 11468,
-      "length": 69,
-      "value": "\"the connection attempt to \""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 11519,
-      "length": 3,
-      "value": "\" was unsuccessful\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12465,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSConnectionService.swift",
-      "kind": "FloatLiteral",
-      "offset": 12881,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSReaderStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 359,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSReaderStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 407,
-      "length": 32,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSReaderStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 431,
-      "length": 7,
-      "value": "\"Readers\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSReaderStorage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 617,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ACSReaderStorage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 856,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTReaderConnectionAnonDelegate.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/ACSReaderFramework\/ABTBluetoothDelegates\/ABTReaderConnectionAnonDelegate.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 31,
