@@ -85,7 +85,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?"
+                "printedName": "(any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -110,12 +110,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?",
+                    "printedName": "(any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ReaderConnectionServiceDelegate",
-                        "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
+                        "printedName": "any ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
                         "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP"
                       }
                     ],
@@ -145,12 +145,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate?",
+                    "printedName": "(any ReaderConnectionWrapper.ReaderConnectionServiceDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ReaderConnectionServiceDelegate",
-                        "printedName": "ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
+                        "printedName": "any ReaderConnectionWrapper.ReaderConnectionServiceDelegate",
                         "usr": "s:23ReaderConnectionWrapper0aB15ServiceDelegateP"
                       }
                     ],
@@ -198,12 +198,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                "printedName": "[any ReaderConnectionWrapper.SmartCardReaderProtocol]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SmartCardReaderProtocol",
-                    "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                    "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
                     "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
                   }
                 ],
@@ -230,12 +230,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                    "printedName": "[any ReaderConnectionWrapper.SmartCardReaderProtocol]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SmartCardReaderProtocol",
-                        "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                        "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
                         "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
                       }
                     ],
@@ -265,12 +265,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[ReaderConnectionWrapper.SmartCardReaderProtocol]",
+                    "printedName": "[any ReaderConnectionWrapper.SmartCardReaderProtocol]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SmartCardReaderProtocol",
-                        "printedName": "ReaderConnectionWrapper.SmartCardReaderProtocol",
+                        "printedName": "any ReaderConnectionWrapper.SmartCardReaderProtocol",
                         "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP"
                       }
                     ],
@@ -850,12 +850,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1653,7 +1653,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1681,7 +1681,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1864,305 +1864,46 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 16,
       "value": "\"AirIDReaderKey\""
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 857,
-      "length": 17,
-      "value": "\"error: \""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 873,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
-      "kind": "Array",
-      "offset": 895,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1352,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConstants.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConstants.swift",
       "kind": "StringLiteral",
       "offset": 221,
       "length": 7,
       "value": "\"AirID\""
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
       "kind": "BooleanLiteral",
       "offset": 340,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "BooleanLiteral",
-      "offset": 678,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "BooleanLiteral",
-      "offset": 912,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1190,
-      "length": 21,
-      "value": "\"Reader is not ready\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1288,
-      "length": 13,
-      "value": "\"No response\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1353,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1519,
-      "length": 31,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1549,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1598,
-      "length": 32,
-      "value": "\"Failed communication: \""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1629,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1786,
-      "length": 18,
-      "value": "\"No provided Data\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 2017,
-      "length": 16,
-      "value": "\"getAtr() issue\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 2114,
-      "length": 15,
-      "value": "\"reset() issue\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
       "kind": "Array",
       "offset": 717,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
       "kind": "BooleanLiteral",
       "offset": 1100,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2834,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2941,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3425,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3635,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 22,
       "value": "\"AirIDReaderFramework.AirIDConnectionService\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 3836,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 3932,
-      "length": 12,
-      "value": "\"cardStatus\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 4253,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 4311,
-      "length": 12,
-      "value": "\"cardStatus\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 4571,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 4667,
-      "length": 12,
-      "value": "\"cardStatus\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7128,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 7801,
-      "length": 123,
-      "value": "\"Device `\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 7820,
-      "length": 1,
-      "value": "\"` status: \""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 7855,
-      "length": 1,
-      "value": "\" | card: \""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 7878,
-      "length": 1,
-      "value": "\" | card status: \""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 7923,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 7949,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 8659,
-      "length": 12,
-      "value": "\"cardStatus\""
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9357,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11003,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/majo\/Ahead\/Repositories\/iOS\/eop\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReader.swift",
-      "kind": "StringLiteral",
-      "offset": 863,
-      "length": 2,
-      "value": "\"\""
     }
   ]
 }

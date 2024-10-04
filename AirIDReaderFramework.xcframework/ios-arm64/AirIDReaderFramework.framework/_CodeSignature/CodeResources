@@ -6,31 +6,31 @@
 	<dict>
 		<key>Frameworks/CardConnectionWrapper.framework/CardConnectionWrapper</key>
 		<data>
-		cAZ3XTBJoDDytZEopPWzpLyd+Tc=
+		UulpsXArVt/7UyJWm8PsxovTdE8=
 		</data>
 		<key>Frameworks/CardConnectionWrapper.framework/Info.plist</key>
 		<data>
-		JAKTiecZIpdRdkD91O9slNJ2uDk=
+		AUGw9rgAL/HOxxmESjzBLh1hZQo=
 		</data>
 		<key>Frameworks/CardConnectionWrapper.framework/_CodeSignature/CodeResources</key>
 		<data>
-		vg2/ER2roF+HDJYX/bLdz5SlDtU=
+		r9u+bXMlEvlQ0JFU14SD9b+8Tx0=
 		</data>
 		<key>Frameworks/ReaderConnectionWrapper.framework/Info.plist</key>
 		<data>
-		3n2vpFVKky/Z5JQrmo5QywrleBw=
+		je9lJpo+goYNYWofz2FCpf96kIA=
 		</data>
 		<key>Frameworks/ReaderConnectionWrapper.framework/ReaderConnectionWrapper</key>
 		<data>
-		FLsxo8gBuZvrCiIvh7RAdG93X24=
+		0WRs4iZoE4gcxM6iTIHSGx0Y8VM=
 		</data>
 		<key>Frameworks/ReaderConnectionWrapper.framework/_CodeSignature/CodeResources</key>
 		<data>
-		hI9ulFtfNhRTAQ8OOAaA+Z6G2f0=
+		HkJdS1C4bdixZzBf79keykAMk4U=
 		</data>
 		<key>Headers/AirIDReaderFramework-Swift.h</key>
 		<data>
-		E0JbXtiFs1IPmC8s8jjAliFI3Cw=
+		GeAMzCSsWKPKqoJrkcGbjzKuHTU=
 		</data>
 		<key>Headers/AirIDReaderFramework.h</key>
 		<data>
@@ -38,27 +38,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kc5oKu3lsHpBpOqi7Vqs32cejVA=
+		emQhoqphqrLBe3bulM+dS9QrAlk=
 		</data>
 		<key>Modules/AirIDReaderFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		iKHpwledperaPqUkY+7HlL1qAjg=
+		Ut/DT21sFT5RdiTDdqQYlJFhFo4=
 		</data>
 		<key>Modules/AirIDReaderFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+S+wRN+V67BiuX7YLthBeZ37XjQ=
+		n4tZtLOzwKVg6JILSFEYQ+kAkWk=
 		</data>
 		<key>Modules/AirIDReaderFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		yEZLEAGDyAgPhZXd8F8KJH7g3mo=
+		P9wi9uviMqsv9iZVQpFEyWEzK6k=
 		</data>
 		<key>Modules/AirIDReaderFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+S+wRN+V67BiuX7YLthBeZ37XjQ=
+		n4tZtLOzwKVg6JILSFEYQ+kAkWk=
 		</data>
 		<key>Modules/AirIDReaderFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Vr3UOR1U0pWnVItcX3N6Jys0t98=
+		zy5aQ4YrpBO7aBjrZl7Z04o3PRA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,49 +71,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ip1bKJx0oC8XNfMNPoewpIvC57WJPofeAABs7lGUq4=
+			a2MyOfFOv1txGA6jFcd6aOVaaxhQ3UL+p3MkuERCO/U=
 			</data>
 		</dict>
 		<key>Frameworks/CardConnectionWrapper.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGgcNCr7mOQF79WDQzwjO0NrDdyrZSba0uIQ8kLIJ+8=
+			FwBJ4DTUzvS6HaoTDROTyBJEpJjX0EU7hZ760cvsh5s=
 			</data>
 		</dict>
 		<key>Frameworks/CardConnectionWrapper.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tLTJQMOaAEhYLBPKKecFOMLcMKV6pmpW1BogoeVocFk=
+			JtgaGTgFWn233Gcn4h+CArFejvX2qOKR6L1SHxAV8rM=
 			</data>
 		</dict>
 		<key>Frameworks/ReaderConnectionWrapper.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D/z9C5qie6OVEjvY3+hJAlA0psnsTji84QwARfettjg=
+			xGyNgBvT3ophWou+14drXgK9wxAHcBZ4lBBAWlRj1xA=
 			</data>
 		</dict>
 		<key>Frameworks/ReaderConnectionWrapper.framework/ReaderConnectionWrapper</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8E+1EfiWKQHnaORm1glXjpZyH0AUmD9AviYe67/bHRM=
+			vgmGpTzSsiTVWE3AtUye7zQTVLocBsTdnrZO5TNuzhs=
 			</data>
 		</dict>
 		<key>Frameworks/ReaderConnectionWrapper.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qTjITMlH1xMNG1uKaY+OrCgP8gn74oROrMdnLkOimhk=
+			1vRsqPXbGpnz9dwEd9rOXlYmiRfij1cBa9CdeOC08Qs=
 			</data>
 		</dict>
 		<key>Headers/AirIDReaderFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5xg1eD5ViKXYBggf/YBMWdkxmgWltlmDKX3g6UgLISU=
+			FsPDM+B0V9wm9dMjGkXvRDJUaecKB5lLAYZW1QQWq40=
 			</data>
 		</dict>
 		<key>Headers/AirIDReaderFramework.h</key>
@@ -127,35 +127,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x+Fjh2CFaBSs7lochGX2lSAVQKJam2MmttiY4ZjYVg8=
+			MrlU6m4WfylLBInC+qgbGyqcAmkm4tR1saCTA9JcxSQ=
 			</data>
 		</dict>
 		<key>Modules/AirIDReaderFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XkzDnq07QNSED0Kr2QVcZCJjy9ojLZ/e5hUCC9itUmE=
+			YCFkweJVfvxocoxP7uwC7fv0X51Qhgg/PqZDKq4E2s4=
 			</data>
 		</dict>
 		<key>Modules/AirIDReaderFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HvfV8L2OZgJ5o0N/XCEAkjO85cmJSyDKE+3ByCuhyEY=
+			JDCET3fkDx4/NH9d41wVB2aMIBo+Kepgh/paEPk6sPU=
 			</data>
 		</dict>
 		<key>Modules/AirIDReaderFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XkzDnq07QNSED0Kr2QVcZCJjy9ojLZ/e5hUCC9itUmE=
+			YCFkweJVfvxocoxP7uwC7fv0X51Qhgg/PqZDKq4E2s4=
 			</data>
 		</dict>
 		<key>Modules/AirIDReaderFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6fWv2Dzl8RiBxBodQMmXnwZLBzBAtRZLELQZNvB+m1o=
+			NO8avWwUDPDEhrIpbJzGdXt1miutcFZMhVzkLHba6Q4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
