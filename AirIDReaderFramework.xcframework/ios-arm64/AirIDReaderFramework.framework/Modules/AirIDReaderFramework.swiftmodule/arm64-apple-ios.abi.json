@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "AirIDReaderFramework",
+    "printedName": "AirIDReaderFramework",
     "children": [
       {
         "kind": "Import",
@@ -1016,6 +1016,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1810,6 +1824,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SmartCardReaderProtocol",
             "printedName": "SmartCardReaderProtocol",
             "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP",
@@ -1864,46 +1892,39 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDReaderStorage.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 16,
       "value": "\"AirIDReaderKey\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConstants.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConstants.swift",
       "kind": "StringLiteral",
       "offset": 221,
       "length": 7,
       "value": "\"AirID\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDCardConnectionProvider.swift",
       "kind": "BooleanLiteral",
       "offset": 340,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
       "kind": "Array",
       "offset": 717,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
       "kind": "BooleanLiteral",
       "offset": 1100,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/eop-readers-ios\/Sources\/AirIDReaderFramework\/AirIDConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 244,
-      "length": 22,
-      "value": "\"AirIDReaderFramework.AirIDConnectionService\""
     }
   ]
 }
