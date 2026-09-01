@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FeitianReaderFramework",
+    "printedName": "FeitianReaderFramework",
     "children": [
       {
         "kind": "Import",
@@ -759,6 +759,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1465,6 +1479,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SmartCardReaderProtocol",
             "printedName": "SmartCardReaderProtocol",
             "usr": "s:23ReaderConnectionWrapper09SmartCardA8ProtocolP",
@@ -1594,119 +1622,105 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
       "kind": "Array",
       "offset": 591,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
       "kind": "Array",
       "offset": 868,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
       "kind": "Array",
       "offset": 1223,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 1277,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
       "kind": "IntegerLiteral",
       "offset": 1330,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
       "kind": "BooleanLiteral",
       "offset": 4288,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
       "kind": "BooleanLiteral",
       "offset": 4428,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianConnectionService.swift",
-      "kind": "StringLiteral",
-      "offset": 266,
-      "length": 24,
-      "value": "\"FeitianReaderFramework.FeitianConnectionService\""
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianReaderConnectionSession.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianReaderConnectionSession.swift",
       "kind": "BooleanLiteral",
       "offset": 697,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianReaderConnectionSession.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianReaderConnectionSession.swift",
       "kind": "BooleanLiteral",
       "offset": 728,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianReaderConnectionSession.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianReaderConnectionSession.swift",
       "kind": "Array",
       "offset": 780,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianReaderConnectionSession.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianReaderConnectionSession.swift",
       "kind": "IntegerLiteral",
       "offset": 1370,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianReaderConnectionSession.swift",
-      "kind": "StringLiteral",
-      "offset": 188,
-      "length": 30,
-      "value": "\"FeitianReaderFramework.FeitianReaderConnectionSession\""
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianStringIdentifier.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianStringIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 175,
       "length": 9,
       "value": "\"Feitian\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianStringIdentifier.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianStringIdentifier.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 7,
       "value": "\"bR301\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianCardConnectionProvider.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianCardConnectionProvider.swift",
       "kind": "BooleanLiteral",
       "offset": 346,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianCardConnectionProvider.swift",
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/mobile-development\/ios\/did\/eop\/Libraries\/eop-readers-ios\/Sources\/FeitianReaderFramework\/FeitianCardConnectionProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 391,
       "length": 1,
